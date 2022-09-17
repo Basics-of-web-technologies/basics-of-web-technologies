@@ -1,0 +1,20 @@
+.cube1 {
+  top: 200px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 10px solid #000;
+  background-color: rgb(170, 117, 37);
+}
+
+.cube2 {
+  position: absolute;
+  top: 200px;
+  right: 1570px;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 10px solid #000;
+  background-color: rgb(174, 177, 27);
+  opacity: 0.5;
+}
