@@ -45,7 +45,7 @@ body {
 
 .main-img-1 {
   height: 100%;
-  width: 33%;
+  width: 33.3%;
   float: left;
   background-color: #71e74d;
   text-align: center;
@@ -53,7 +53,7 @@ body {
 
 .main-img-2 {
   height: 100%;
-  width: 33%;
+  width: 33.3%;
   float: right;
   background-color: #d7f33c;
   text-align: center;
@@ -61,7 +61,7 @@ body {
 
 .main-text-3 {
   height: 100%;
-  width: 33%;
+  width: 33.3%;
   float: right;
   background-color: #d649ca;
   text-align: center;
