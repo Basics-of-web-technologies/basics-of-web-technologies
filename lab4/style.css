@@ -1,0 +1,12 @@
+#first {
+  background: red;
+  color: black;
+}
+.second {
+  background: green;
+  color: black;
+}
+img {
+  width: 20%;
+  height: auto;
+}
