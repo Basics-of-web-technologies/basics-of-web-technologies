@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Воловик Р.В. ІП-93 Лаб5 Вар8</title>
+  </head>
+  <body>
+    <main class="main">
+      <form method="POST" class="form">
+        <input
+          type="text"
+          name="label1"
+          id="name"
+          placeholder="ПІБ, Воловик Р.В."
+        />
+        <input
+          type="text"
+          name="label2"
+          id="date"
+          placeholder="Дата народження"
+        />
+        <input
+          type="text"
+          name="label3"
+          id="group"
+          placeholder="Група, ІП-93"
+        />
+        <input type="text" name="label4" id="email" placeholder="Email" />
+        <input
+          type="text"
+          name="label5"
+          id="card"
+          placeholder="Картка, AB №111111"
+        />
+        <input
+          type="button"
+          value="Підтвердити"
+          id="but"
+          onclick="validFunc()"
+        />
+      </form>
+
+      <section class="validInform">
+        <div id="nameValid"></div>
+        <div id="dateValid"></div>
+        <div id="groupValid"></div>
+        <div id="emailValid"></div>
+        <div id="cardValid"></div>
+      </section>
+    </main>
+    <input type="color" id="colorInput" />
+    <section class="table">
+      <div class="row">
+        <div class="row">1</div>
+        <div class="row" id="two">2</div>
+        <div class="row">3</div>
+        <div class="row" id="fourth">4</div>
+        <div class="row" id="fifth">5</div>
+        <div class="row" id="sixth">6</div>
+      </div>
+      <div class="row">
+        <div>7</div>
+        <div class="row" id="eight">8</div>
+        <div>9</div>
+        <div id="tenth">10</div>
+        <div id="eleventh">11</div>
+        <div id="twelfth">12</div>
+      </div>
+      <div class="row">
+        <div>13</div>
+        <div class="row" id="14">14</div>
+        <div>15</div>
+        <div class="row" id="16">16</div>
+        <div>17</div>
+        <div class="row" id="18">18</div>
+      </div>
+
+      <div class="row">
+        <div>19</div>
+        <div class="row" id="20">20</div>
+        <div>21</div>
+        <div class="row" id="22">22</div>
+        <div>23</div>
+        <div class="row" id="24">24</div>
+      </div>
+
+      <div class="row">
+        <div>25</div>
+        <div class="row" id="26">26</div>
+        <div>27</div>
+        <div class="row" id="28">28</div>
+        <div>29</div>
+        <div class="row" id="30">30</div>
+      </div>
+
+      <div class="row">
+        <div>31</div>
+        <div class="row" id="32">32</div>
+        <div>33</div>
+        <div class="row" id="34">34</div>
+        <div>35</div>
+        <div class="row" id="36">36</div>
+      </div>
+    </section>
+
+    <script src="main.js"></script>
+  </body>
+</html>
