@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.86de6a93.css",
+    "main.js": "/static/js/main.6f41ebf5.js",
+    "static/media/Lviv_banner_1.jpg": "/static/media/Lviv_banner_1.50a34154f966042a4d14.jpg",
+    "index.html": "/index.html",
+    "main.86de6a93.css.map": "/static/css/main.86de6a93.css.map",
+    "main.6f41ebf5.js.map": "/static/js/main.6f41ebf5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86de6a93.css",
+    "static/js/main.6f41ebf5.js"
+  ]
+}
